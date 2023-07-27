@@ -9,7 +9,9 @@ export const metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
   <html lang="pt-BR">
-    <body>{children}</body>
+    <body className="bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100">
+      {children}
+    </body>
   </html>
 )
 
